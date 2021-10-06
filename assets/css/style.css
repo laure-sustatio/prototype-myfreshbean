@@ -1,0 +1,148 @@
+/*#159E2E
+rgb(114, 105, 76)*/
+
+.home {
+  background-color: #776352;
+  position: relative;
+}
+
+.home .main-picture{
+    width: 100%;
+    filter: brightness(80%);
+    opacity: 0;
+    position: relative;
+}
+
+.home .on-main-picture img {
+  width: 100%;
+}
+
+.home .cup{
+  /*transform: translateY(-150%) translateX(-120%)  scale(0.8);*/
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+  width: 30%;
+}
+
+.home .smoke{
+  position: absolute;
+  right: 12%;
+  bottom: 47%;
+  width: 15%;
+}
+
+.home .feuille{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+}
+
+/*    -------------------------------------     */
+.logo-img{
+  width: 400px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.coffee-animation{
+    background-color: #776352;
+    padding-top: 100px;
+    min-height: 250px;
+}
+
+.coffee-animation .button {
+  display: flex;
+ justify-content: center; 
+}
+.coffee-animation button {
+  background-color :#1ccc3c;
+  padding:5px;
+}
+
+.coffee-animation .coffe-pot {
+    position:relative;
+    margin-left: 5%;
+    width: 250px;
+    min-height: 150px;
+}
+
+.coffee-animation .coffe-pot img {
+  position: absolute;
+}
+
+.coffee-animation .coffe-pot .coffee-liquide{
+  left: 15px;
+  top:15px;
+}
+
+.coffee-animation div img{
+  width: 100%;
+}
+
+.coffee-beans-background {
+  height: 150px;
+  background: url(../images/bean1.png), url(../images/bean2.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 15px;
+  background-color: #776352;
+}
+
+
+#marker {
+  height: 300px;
+}
+
+
+
+/* 
+.coffee-animation .smoke {
+  display: none;
+  margin-left: 35%;
+  margin-top: 100px;
+  width: 8%;
+}
+
+.coffee-animation .cup {
+  margin-left: 30%;
+  width: 150px;
+}
+
+.coffee-animation .under-cup {
+  display: flex;
+  margin-left: 30%;
+  width: 150px;
+  padding-bottom: 50px;
+}
+
+
+
+
+.text-main h2{
+  position: absolute;
+  left: 35%;
+}
+
+.text-main h2:nth-child(2){
+  position: absolute;
+  left: 35%;
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.text-main h2:nth-child(3){
+  position: absolute;
+  left: 35%;
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.text-main h2:nth-child(4){
+  position: absolute;
+  left: 35%;
+  transform: translateY(50px);
+  opacity: 0;
+}
+*/
